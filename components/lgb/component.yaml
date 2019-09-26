@@ -1,0 +1,25 @@
+name: LightGbm train
+description: preprocess the category feature
+inputs:
+  - {name: train_path, type: String, description: 'the path of the dataset'}
+  - {name: label_name, type: String, description: 'label name'}
+  - {name: out_model_path, type: String, description: 'the path of the preprocessed dataset will be saved!'}
+  - {name: k_flods, type: Integer, description: 'the path of the preprocessed dataset will be saved!'}
+  - {name: scoring, type: String, description: 'the path of the preprocessed dataset will be saved!'}
+
+outputs:
+  - {name: out_model_path, type: String, description: 'file_out'}
+
+implementation:
+  container:
+    image: lgb:default
+    command: [python, lgb.py]
+    args: [
+      --train-path,               {inputValue: train_path},
+      --label-name,               {inputValue: label_name},
+      --out-model-path,             {inputValue: out_model_path},
+      --k-flods,                    {inputValue: k_flods},
+      --scoring,                    {inputValue: scoring},
+
+      --out-model-path-file,        {outputPath: out_model_path},
+    ]

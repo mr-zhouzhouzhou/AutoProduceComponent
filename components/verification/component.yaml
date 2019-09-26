@@ -1,0 +1,17 @@
+name: Spark Verification AUC
+description: preprocess the category feature
+inputs:
+  - {name: test_path, type: String, description: 'the path of the dataset'}
+  - {name: label_name, type: String, description: 'label name'}
+  - {name: save_model_path, type: String, description: 'the path of the preprocessed dataset will be saved!'}
+
+implementation:
+  container:
+    image: verification:default
+    command: [python, verification.py]
+    args: [
+      --test-path, {inputValue: test_path},
+      --label-name, {inputValue: label_name},
+      --save-model-path, {inputValue: save_model_path},
+
+    ]

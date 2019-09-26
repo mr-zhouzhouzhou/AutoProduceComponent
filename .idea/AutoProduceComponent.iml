@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="PYTHON_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/.idea" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/.idea/libraries" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/components" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/components/bind" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/components/bind/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/components/bind/tests" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/components/bind/tests/testdata" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/components/hash" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/components/hash/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/components/hash/tests" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/components/hash/tests/testdata" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/components/label_preprocess" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/components/label_preprocess/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/components/label_preprocess/tests" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/components/label_preprocess/tests/testdata" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/components/lgb" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/components/lgb/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/components/lgb/tests" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/components/lgb/tests/testdata" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/components/time_preprocess" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/components/time_preprocess/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/components/time_preprocess/tests" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/components/time_preprocess/tests/testdata" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/components/verification" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/components/verification/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/components/verification/tests" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/components/verification/tests/testdata" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/examples" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/examples/lgb" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/make" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="R User Library" level="project" />
+    <orderEntry type="library" name="R Skeletons" level="application" />
+  </component>
+  <component name="TestRunnerService">
+    <option name="projectConfiguration" value="pytest" />
+    <option name="PROJECT_TEST_RUNNER" value="pytest" />
+  </component>
+</module>
