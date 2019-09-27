@@ -33,7 +33,7 @@
       <sourceFolder url="file://$MODULE_DIR$/examples/lgb" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/make" isTestSource="false" />
     </content>
-    <orderEntry type="inheritedJdk" />
+    <orderEntry type="jdk" jdkName="Remote Python 3.7.3 (sftp://root@192.168.10.10:23456/home/miniconda/bin/python) (3)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="R User Library" level="project" />
     <orderEntry type="library" name="R Skeletons" level="application" />

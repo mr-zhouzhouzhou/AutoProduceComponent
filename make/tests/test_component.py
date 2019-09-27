@@ -18,6 +18,10 @@ import tempfile
 import unittest
 from contextlib import contextmanager
 from pathlib import Path
+import findspark
+findspark.init()
+import pyspark.sql
+
 import kfp.components as comp
 
 @contextmanager
@@ -38,14 +42,17 @@ class BindTestCase(unittest.TestCase):
         
         train_op = comp.load_component(os.path.join(component_root, 'component.yaml'))
 
-        input_path_list = [
-            {'PipelineParam': {'name': 'out_path', 'op_name': 'Spark Hash Preprocess', 'value': None, 'param_type': 'List', 'pattern': '/tmp/automl_spark/7e4b8111-f20b-4991-a3b4-90d6a0ce3389/pipeline-hbbsb-1543833624-hash'}},
-            {'PipelineParam': {'name': 'out_label_path', 'op_name': 'Spark Label Preprocess', 'value': None, 'param_type': 'String', 'pattern': '/tmp/automl_spark/7e4b8111-f20b-4991-a3b4-90d6a0ce3389/pipeline-hbbsb-1645838448-label'}},
-            {'PipelineParam': {'name':'out_timestamp_path', 'op_name': 'Spark Timestamp Prepeocess', 'value': None, 'param_type': 'String', 'pattern': '/tmp/automl_spark/7e4b8111-f20b-4991-a3b4-90d6a0ce3389/pipeline-hbbsb-1323756077-timestamp'}}
-        ]
+        input_path_list = [{'PipelineParam': {'name': 'out_path', 'op_name': 'Spark Hash Preprocess', 'value': None, 'param_type': 'List',
+                            'pattern': '/tmp/automl_spark/7e4b8111-f20b-4991-a3b4-90d6a0ce3389/pipeline-hbbsb-1543833624-hash'}},
+         {'PipelineParam': {'name': 'out_label_path', 'op_name': 'Spark Label Preprocess', 'value': None,
+                            'param_type': 'String',
+                            'pattern': '/tmp/automl_spark/7e4b8111-f20b-4991-a3b4-90d6a0ce3389/pipeline-hbbsb-1645838448-label'}},
+         {'PipelineParam': {'name': 'out_timestamp_path', 'op_name': 'Spark Timestamp Prepeocess', 'value': None,
+                            'param_type': 'String',
+                            'pattern': '/tmp/automl_spark/7e4b8111-f20b-4991-a3b4-90d6a0ce3389/pipeline-hbbsb-1323756077-timestamp'}}]
 
         tmp = ["file://" + os.path.join(testdata_root, "label.parquet"),
-               "file://" + os.path.join(testdata_root, "time.parquet")]
+         "file://" + os.path.join(testdata_root, "time.parquet")]
 
         with tempfile.TemporaryDirectory() as temp_dir_name:
             with components_local_output_dir_context(temp_dir_name):
@@ -53,8 +60,8 @@ class BindTestCase(unittest.TestCase):
                     input_path_list=input_path_list,
                     label_name='rating',
                     test_size=0.8,
-                    out_train_path="file://"+os.path.join(temp_dir_name, "train.parquet"),
-                    out_test_path="file://"+os.path.join(temp_dir_name, "test.parquet")
+                    out_train_path = "file://"+os.path.join(testdata_root,"train.parquet"),
+                    out_test_path= "file://"+os.path.join(testdata_root, "test.parquet")
                 )
 
             full_command = train_task.command + train_task.arguments
@@ -72,7 +79,23 @@ class BindTestCase(unittest.TestCase):
 
 
 
+    def test_2(self):
+        tests_root = os.path.abspath(os.path.dirname(__file__))
+        sc = pyspark.sql.SparkSession.builder.master("local").getOrCreate()
 
+        train_path = os.path.abspath(os.path.join(tests_root, 'testdata/train.parquet'))
+        test_path = os.path.abspath(os.path.join(tests_root, 'testdata/test.parquet'))
+
+
+
+
+        df = sc.read.parquet("file://" + train_path)
+
+        df.show()
+
+        df = sc.read.parquet("file://" + test_path)
+
+        df.show()
 
 if __name__ == '__main__':
     unittest.main()

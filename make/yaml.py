@@ -13,27 +13,21 @@ from ruamel import yaml
 
 desired_caps = {
 	"name": "Spark Hash Preprocess",
-	"description": "preprocess the category feature",
 	"inputs": [
 		{
 			"name": "dataset_path",
-			"type": "String",
-			"description": "the path of the dataset"
+
 		},
 		{
 			"name": "hash_buckets_size",
-			"type": "String",
-			"description": "label name"
+
 		},
 		{
 			"name": "out_hash_path",
-			"type": "String",
-			"description": "label name"
+
 		},
 		{
 			"name": "entilty_list",
-			"type": "String",
-			"description": "the path of the preprocessed dataset will be saved!"
 		}
 	],
 	"outputs": [

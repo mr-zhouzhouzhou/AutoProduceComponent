@@ -2,13 +2,72 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="be2bede5-4313-4884-8c86-59df815df238" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/make/make_component.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/make/test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/make/test/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/make/test/lib/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/make/test/lib/aa.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/make/test/test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/make/yaml.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/bind/src/config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/make/config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/AutoProduceComponent.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/AutoProduceComponent.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/bind/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/bind/build_image.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/bind/component.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/bind/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/bind/run_tests.sh" beforeDir="false" afterPath="$PROJECT_DIR$/make/run_tests.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/bind/src/bind_preprocess.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/bind/tests/test_component.py" beforeDir="false" afterPath="$PROJECT_DIR$/make/tests/test_component.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/bind/tests/testdata/a.parquet" beforeDir="false" afterPath="$PROJECT_DIR$/make/tests/testdata/a.parquet" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/bind/tests/testdata/b.parquet" beforeDir="false" afterPath="$PROJECT_DIR$/make/tests/testdata/b.parquet" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/hash/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/hash/build_image.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/hash/component.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/hash/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/hash/run_tests.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/hash/src/hash.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/hash/tests/test_component.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/hash/tests/testdata/rating.parquet" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/label_preprocess/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/label_preprocess/build_image.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/label_preprocess/component.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/label_preprocess/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/label_preprocess/run_tests.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/label_preprocess/src/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/label_preprocess/src/label_preprocess.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/label_preprocess/tests/test_component.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/label_preprocess/tests/testdata/rating.parquet" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/lgb/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/lgb/build_image.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/lgb/component.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/lgb/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/lgb/run_tests.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/lgb/src/lgb.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/lgb/tests/test_component.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/lgb/tests/testdata/x_train.parquet" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/lgb/tests/testdata/y_train.parquet" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/time_preprocess/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/time_preprocess/build_image.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/time_preprocess/component.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/time_preprocess/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/time_preprocess/run_tests.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/time_preprocess/src/time_preprocess.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/time_preprocess/tests/test_component.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/time_preprocess/tests/testdata/rating.parquet" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/verification/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/verification/build_image.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/verification/component.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/verification/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/verification/run_tests.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/verification/src/verification.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/verification/tests/test_component.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/verification/tests/testdata/x_test.parquet" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/verification/tests/testdata/y_test.parquet" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/lgb/lgb_pipeline.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/make/cap11s.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/make/component/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/make/component/src/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/make/component/src/hash.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/make/make_component.py" beforeDir="false" afterPath="$PROJECT_DIR$/make/make_component.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/make/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/make/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/make/yaml.py" beforeDir="false" afterPath="$PROJECT_DIR$/make/yaml.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,45 +77,58 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/make/yaml.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="344">
-              <caret line="92" column="37" selection-start-line="92" selection-start-column="37" selection-end-line="92" selection-end-column="37" />
-              <folding>
-                <element signature="e#207#216#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/make/cap11s.yaml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="28" column="20" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/components/hash/component.yaml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="34" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/make/make_component.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="52" column="8" selection-start-line="52" selection-start-column="8" selection-end-line="52" selection-end-column="8" />
+            <state relative-caret-position="-376">
+              <caret line="62" column="4" selection-start-line="62" selection-start-column="4" selection-end-line="62" selection-end-column="4" />
               <folding>
                 <element signature="e#213#222#0" expanded="true" />
-                <marker date="1569494984085" expanded="true" signature="1063:1187" ph="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/components/bind/component.yaml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="33" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/make/test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="413">
+              <caret line="45" lean-forward="true" selection-start-line="29" selection-end-line="45" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/__init__.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/make/yaml.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-8">
+              <caret line="9" selection-start-line="9" selection-end-line="10" selection-end-column="23" />
+              <folding>
+                <element signature="e#202#211#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/make/config.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" selection-start-line="11" selection-end-line="22" />
             </state>
           </provider>
         </entry>
@@ -82,25 +154,25 @@
         <option value="$PROJECT_DIR$/make/component/src/hash.py" />
         <option value="$PROJECT_DIR$/make/test/lib/aa.py" />
         <option value="$PROJECT_DIR$/make/test/test.py" />
-        <option value="$PROJECT_DIR$/make/test.py" />
         <option value="$PROJECT_DIR$/make/test/lib/__init__.py" />
         <option value="$PROJECT_DIR$/make/test/__init__.py" />
-        <option value="$PROJECT_DIR$/components/hash/src/hash.py" />
         <option value="$PROJECT_DIR$/components/hash/component.yaml" />
         <option value="$PROJECT_DIR$/make/test_yaml.py" />
+        <option value="$PROJECT_DIR$/components/label_preprocess/src/label_preprocess.py" />
+        <option value="$PROJECT_DIR$/components/hash/tests/test_component.py" />
         <option value="$PROJECT_DIR$/make/yaml.py" />
+        <option value="$PROJECT_DIR$/components/hash/Dockerfile" />
+        <option value="$PROJECT_DIR$/make/component/dockerfile" />
+        <option value="$PROJECT_DIR$/components/hash/build_image.sh" />
+        <option value="$PROJECT_DIR$/components/hash/src/hash.py" />
+        <option value="$PROJECT_DIR$/components/bind/src/bind_preprocess.py" />
+        <option value="$PROJECT_DIR$/components/bind/src/config.py" />
+        <option value="$PROJECT_DIR$/components/hash/src/config.py" />
+        <option value="&lt;59506792-0b6b-4a87-8226-2dfecfa1e9fb&gt;/tmp/pycharm_project_738/make/component/component.yaml" />
+        <option value="&lt;59506792-0b6b-4a87-8226-2dfecfa1e9fb&gt;/tmp/pycharm_project_738/make/component/build_image.sh" />
+        <option value="&lt;59506792-0b6b-4a87-8226-2dfecfa1e9fb&gt;/tmp/pycharm_project_738/make/make_component.py" />
+        <option value="$PROJECT_DIR$/make/test.py" />
         <option value="$PROJECT_DIR$/make/make_component.py" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/AutoProduceComponent.iml" />
-        <option value="$PROJECT_DIR$/.idea/misc.xml" />
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
-        <option value="$PROJECT_DIR$/.idea/modules.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/R_User_Library.xml" />
       </list>
     </option>
   </component>
@@ -126,7 +198,45 @@
             <path>
               <item name="AutoProduceComponent" type="b2602c69:ProjectViewProjectNode" />
               <item name="AutoProduceComponent" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AutoProduceComponent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AutoProduceComponent" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="bind" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AutoProduceComponent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AutoProduceComponent" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="bind" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AutoProduceComponent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AutoProduceComponent" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="bind" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="config.py" type="8704e2dd:PyFileNode" />
+            </path>
+            <path>
+              <item name="AutoProduceComponent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AutoProduceComponent" type="462c0819:PsiDirectoryNode" />
               <item name="make" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AutoProduceComponent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AutoProduceComponent" type="462c0819:PsiDirectoryNode" />
+              <item name="make" type="462c0819:PsiDirectoryNode" />
+              <item name="config.py" type="8704e2dd:PyFileNode" />
+            </path>
+            <path>
+              <item name="AutoProduceComponent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AutoProduceComponent" type="462c0819:PsiDirectoryNode" />
+              <item name="make" type="462c0819:PsiDirectoryNode" />
+              <item name="test.py" type="8704e2dd:PyFileNode" />
             </path>
             <path>
               <item name="AutoProduceComponent" type="b2602c69:ProjectViewProjectNode" />
@@ -139,14 +249,24 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/make" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/components/bind/src" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/components" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/components/bind/src" />
       <recent name="$PROJECT_DIR$/make" />
     </key>
   </component>
@@ -162,8 +282,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.yaml">
-    <configuration name="hash" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.make_component">
+    <configuration name="make_component (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="AutoProduceComponent" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -171,12 +291,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/components/hash/src" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="WORKING_DIRECTORY" value="/" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/components/hash/src/hash.py" />
+      <option name="SCRIPT_NAME" value="&lt;59506792-0b6b-4a87-8226-2dfecfa1e9fb&gt;/tmp/pycharm_project_738/make/make_component.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -207,7 +327,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test (2)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="AutoProduceComponent" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -251,29 +371,29 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest in yaml.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest in test_component.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="AutoProduceComponent" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/make" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/components/bind/tests" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/make/yaml.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/components/bind/tests/test_component.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.yaml" />
-        <item itemvalue="Python tests.pytest in yaml.py" />
-        <item itemvalue="Python.hash" />
         <item itemvalue="Python.make_component" />
-        <item itemvalue="Python.test (2)" />
+        <item itemvalue="Python.test" />
+        <item itemvalue="Python tests.pytest in test_component.py" />
+        <item itemvalue="Python.make_component (1)" />
+        <item itemvalue="Python.yaml" />
       </list>
     </recent_temporary>
   </component>
@@ -287,14 +407,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1569480669795</updated>
-      <workItem from="1569480673204" duration="12487000" />
+      <workItem from="1569480673204" duration="31520000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="pytest_in_test_yaml_py - 2019.09.26 at 18h 08m 21s.xml">
-      <configuration name="pytest in test_yaml.py" configurationId="tests" />
-    </history-entry>
     <history-entry file="pytest_in_test_yaml_py - 2019.09.26 at 18h 09m 52s.xml">
       <configuration name="pytest in test_yaml.py" configurationId="tests" />
     </history-entry>
@@ -322,16 +439,19 @@
     <history-entry file="pytest_in_test_yaml_py - 2019.09.26 at 18h 20m 18s.xml">
       <configuration name="pytest in test_yaml.py" configurationId="tests" />
     </history-entry>
+    <history-entry file="pytest_in_test_component_py - 2019.09.27 at 16h 50m 14s.xml">
+      <configuration name="pytest in test_component.py" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12487000" />
+    <option name="totallyTimeSpent" value="31520000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="808" extended-state="6" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1423462" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" />
       <window_info anchor="bottom" id="Database Changes" />
@@ -339,15 +459,16 @@
       <window_info anchor="bottom" id="Python Console" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="File Transfer" weight="0.32891566" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32891566" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3282123" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.036144577" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Remote Host" />
+      <window_info anchor="right" id="Remote Host" visible="true" weight="0.2353362" />
       <window_info anchor="right" id="R Packages" />
       <window_info anchor="right" id="SciView" />
       <window_info anchor="right" id="R Graphics" />
@@ -367,7 +488,7 @@
       <window_info anchor="bottom" id="Python Console" order="5" />
       <window_info anchor="bottom" id="Message" order="6" />
       <window_info anchor="bottom" id="Find" order="7" weight="0.32891566" />
-      <window_info anchor="bottom" id="Run" order="8" visible="true" weight="0.32891566" />
+      <window_info anchor="bottom" id="Run" order="8" visible="true" weight="0.28313252" />
       <window_info anchor="bottom" id="Debug" order="9" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
@@ -386,38 +507,19 @@
     <option name="version" value="1" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/AutoProduceComponent$test.coverage" NAME="test Coverage Results" MODIFIED="1569482191624" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/components/hash/src" />
-    <SUITE FILE_PATH="coverage/AutoProduceComponent$hash.coverage" NAME="hash Coverage Results" MODIFIED="1569490586358" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/components/hash/src" />
+    <SUITE FILE_PATH="coverage/AutoProduceComponent$hash.coverage" NAME="hash Coverage Results" MODIFIED="1569496093454" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/components/hash/src" />
+    <SUITE FILE_PATH="coverage/AutoProduceComponent$test.coverage" NAME="test Coverage Results" MODIFIED="1569576416089" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/make" />
     <SUITE FILE_PATH="coverage/AutoProduceComponent$pytest_in_test_yaml_py.coverage" NAME="pytest in test_yaml.py Coverage Results" MODIFIED="1569493217960" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/make" />
     <SUITE FILE_PATH="coverage/AutoProduceComponent$test__2_.coverage" NAME="test (2) Coverage Results" MODIFIED="1569488127766" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/make" />
     <SUITE FILE_PATH="coverage/AutoProduceComponent$test__1_.coverage" NAME="test (1) Coverage Results" MODIFIED="1569487653664" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/make/test" />
-    <SUITE FILE_PATH="coverage/AutoProduceComponent$yaml.coverage" NAME="yaml Coverage Results" MODIFIED="1569494138600" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/make" />
-    <SUITE FILE_PATH="coverage/AutoProduceComponent$make_component.coverage" NAME="make_component Coverage Results" MODIFIED="1569489257823" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/make" />
+    <SUITE FILE_PATH="coverage/AutoProduceComponent$yaml.coverage" NAME="yaml Coverage Results" MODIFIED="1569556340487" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/make" />
+    <SUITE FILE_PATH="coverage/AutoProduceComponent$make_component.coverage" NAME="make_component Coverage Results" MODIFIED="1569577345256" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/make" />
+    <SUITE FILE_PATH="coverage/AutoProduceComponent$make_component__1_.coverage" NAME="make_component (1) Coverage Results" MODIFIED="1569571724152" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="/" />
+    <SUITE FILE_PATH="coverage/AutoProduceComponent$pytest_in_test_component_py.coverage" NAME="pytest in test_component.py Coverage Results" MODIFIED="1569574214466" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/components/bind/tests" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/components/hash/build_image.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="46" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/hash/Dockerfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/components/hash/run_tests.sh">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/hash/tests/test_component.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
-          <caret line="44" column="63" selection-start-line="44" selection-start-column="8" selection-end-line="44" selection-end-column="63" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/components/hash/src/test.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -459,13 +561,6 @@
     <entry file="file://$PROJECT_DIR$/make/test/lib/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$USER_HOME$/anaconda3/lib/python3.7/importlib/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="126" selection-start-line="126" selection-end-line="126" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/make/test/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -483,40 +578,52 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/make/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/hash/src/hash.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="38" selection-start-line="38" selection-end-line="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/make/caps.yaml">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/make/yaml.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="344">
-          <caret line="92" column="37" selection-start-line="92" selection-start-column="37" selection-end-line="92" selection-end-column="37" />
-          <folding>
-            <element signature="e#207#216#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/components/hash/component.yaml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="16" column="34" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/lgb/src/lgb.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1282" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/make/component/cap11s.yaml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/label_preprocess/src/label_preprocess.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-112">
+          <caret line="72" selection-start-line="72" selection-end-line="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/label_preprocess/component.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="8" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/make/component/build_image.sh">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/make/component/dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="15" lean-forward="true" selection-start-column="15" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/hash/tests/test_component.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="55" column="42" selection-start-line="55" selection-start-column="42" selection-end-line="55" selection-end-column="42" />
         </state>
       </provider>
     </entry>
@@ -527,13 +634,135 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/anaconda3/lib/python3.7/importlib/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="126" selection-start-line="126" selection-end-line="126" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/make/component/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Caches/PyCharm2019.1/remote_sources/-312265182/-28641266/importlib/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="126" selection-start-line="126" selection-end-line="126" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/bind/src/bind_preprocess.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="106" selection-start-line="93" selection-end-line="106" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/hash/src/hash.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="354">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/hash/src/config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/hash/build_image.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/hash/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/label_preprocess/build_image.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="34" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/label_preprocess/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="13" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/make/run_tests.sh">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/bind/build_image.sh">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/bind/tests/test_component.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="22" column="12" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/bind/run_tests.sh">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/bind/src/config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" selection-start-line="11" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/make/config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" selection-start-line="11" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/make/yaml.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8">
+          <caret line="9" selection-start-line="9" selection-end-line="10" selection-end-column="23" />
+          <folding>
+            <element signature="e#202#211#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/make/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="413">
+          <caret line="45" lean-forward="true" selection-start-line="29" selection-end-line="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/bind/component.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="33" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/make/make_component.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="52" column="8" selection-start-line="52" selection-start-column="8" selection-end-line="52" selection-end-column="8" />
+        <state relative-caret-position="-376">
+          <caret line="62" column="4" selection-start-line="62" selection-start-column="4" selection-end-line="62" selection-end-column="4" />
           <folding>
             <element signature="e#213#222#0" expanded="true" />
-            <marker date="1569494984085" expanded="true" signature="1063:1187" ph="..." />
           </folding>
         </state>
       </provider>
